@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(236, 204, 26);
+}
+.card-body {
+  text-align: center;
+}
+.card {
+  margin: 5px;
+}
+
+.card-title1 {
+  margin-top: -10px;
+}
+.title2 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+.card-text1 {
+  text-align: left;
+}
+#subscriptionCarousel {
+  margin-top: 20px;
+}
+.carousel-indicators {
+  top: 470px;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  #subscriptionCarousel {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .desktop-cards {
+    display: flex;
+  }
+  .mobile-cards {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .desktop-cards {
+    display: none;
+  }
+  .mobile-cards {
+    display: block;
+  }
+}
